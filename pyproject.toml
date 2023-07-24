@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "japan-covid-19-map"
+version = "0.1.0"
+description = ""
+authors = ["HEKUCHAN <heitorhirose@gmail.com>"]
+readme = "README.md"
+packages = [{include = "japan_covid_19_map"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7"
+folium = "^0.14.0"
+streamlit = "^1.25.0"
+streamlit-folium = "^0.13.0"
+geopandas = "^0.13.2"
+numpy = "^1.25.1"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.0.0"
+ipykernel = "^6.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
