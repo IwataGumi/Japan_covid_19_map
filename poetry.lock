@@ -907,6 +907,42 @@ qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["Django (<3.1)", "attrs", "colorama", "docopt", "pytest (<7.0.0)"]
 
 [[package]]
+name = "jenkspy"
+version = "0.3.3"
+description = "Compute Natural Breaks (Fisher-Jenks algorithm)"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "jenkspy-0.3.3-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:98daa1f814640330b7c4d083635792cc3b3d77ea2615899f118e34dddc724ceb"},
+    {file = "jenkspy-0.3.3-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:a8ff7a76b6f8326e0ec55823bf59996ef4206bdf64d63ac60519c48693472b4f"},
+    {file = "jenkspy-0.3.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:14167093a74d06029eb1f6a263ee7b82d518b66be55bebfefee223d612f5951c"},
+    {file = "jenkspy-0.3.3-cp310-cp310-win_amd64.whl", hash = "sha256:5eeae447bfb3680b8600c455f76e730bc9dc53fc62d014c07ea449d1cacf1986"},
+    {file = "jenkspy-0.3.3-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:1d4778d235de67e24fe40b05e274e024db55f5c5996cefc178a0a1eabed248af"},
+    {file = "jenkspy-0.3.3-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:927a6ab7347b7ce83f5a5910b305527c70a1d59269a4a8fd86fae15a32d2e05d"},
+    {file = "jenkspy-0.3.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:285e67daf469f43f1a1e805947caab626860f752329ddf384a82e4855a0cf611"},
+    {file = "jenkspy-0.3.3-cp311-cp311-win_amd64.whl", hash = "sha256:6c6af3d5e62827e2f5fd5ac72701aad487eff10df9cbcc18f99e6183ddfaefc6"},
+    {file = "jenkspy-0.3.3-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:92e1b5df9595e8a1317404665a68d066640c37c760c60d884febfeb9d871ca31"},
+    {file = "jenkspy-0.3.3-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9f972470b8567b7e18387026c4450d2ea365b84fe232e4911f5b8d824b6e4e2e"},
+    {file = "jenkspy-0.3.3-cp36-cp36m-win_amd64.whl", hash = "sha256:d24c595fb06d57319c5cfe365961bba891cc10bd486defe18eeed4571b867928"},
+    {file = "jenkspy-0.3.3-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:81559edbf7bd70aabe934aab59202f916cdd33d31a3f5dc1ece0224f86af0d86"},
+    {file = "jenkspy-0.3.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:32478c59f1379d73a88a0c02a9ad9a5c2bdac017fceafe6c6d6c4b5ff330f52e"},
+    {file = "jenkspy-0.3.3-cp37-cp37m-win_amd64.whl", hash = "sha256:3a40aaf88ada5e19d8d5d4c6fc79b0e1e365bbde70a425f5e0d404f05e650cb2"},
+    {file = "jenkspy-0.3.3-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:a1b5ece60461adb2f8fc5f973bd4a0777d30cdd0843f739fb26cb1ceef8fd693"},
+    {file = "jenkspy-0.3.3-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:91bc187071d599966309174eebf156eea624dac72702333c1c00197ef42f52d5"},
+    {file = "jenkspy-0.3.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fc5708e6da7d374fa2f6b5cc299758fa6088aba78b73a7ffeffd5602f801ff60"},
+    {file = "jenkspy-0.3.3-cp38-cp38-win_amd64.whl", hash = "sha256:7902e05ac0ad93740d3f0cfd650100f0ecdee868aadf024e822982f2533fcde5"},
+    {file = "jenkspy-0.3.3-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:0496ce5abcadb3bd47aba531e6f53163aae5be376b1b386ea8b7234c32c1001e"},
+    {file = "jenkspy-0.3.3-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:df983315dbfb35a3f9558d3102ca0d095a51a88371910e8233b282f75cd3edac"},
+    {file = "jenkspy-0.3.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:be3d43339171dceb2b4a5f8e44b06de044a26ef8366a4a499cc31ac70c95da77"},
+    {file = "jenkspy-0.3.3-cp39-cp39-win_amd64.whl", hash = "sha256:ab6c7f64e3646d3a1b9e983bcdbb8ad5833fac3bfb2e00d2d8366887eecbad23"},
+    {file = "jenkspy-0.3.3.tar.gz", hash = "sha256:368ade0f55d0407977a52ddd9f5ef780cbd2867eb92d0b964de706bd70686736"},
+]
+
+[package.dependencies]
+numpy = "*"
+
+[[package]]
 name = "jinja2"
 version = "3.1.2"
 description = "A very fast and expressive template engine."
@@ -2959,4 +2995,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.9.7"
-content-hash = "caf7377f1507170d70cbb075fc73283edf9fe48af6c216a2f328c2989aef6b5c"
+content-hash = "2e5ad1ca75b390420f0e0f0fe0713f3ed1419db38f613805001cf16616bf4987"

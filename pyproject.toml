@@ -13,6 +13,7 @@ streamlit = "^1.25.0"
 streamlit-folium = "^0.13.0"
 geopandas = "^0.13.2"
 numpy = "^1.25.1"
+jenkspy = "^0.3.3"
 
 [tool.poetry.group.dev.dependencies]
 notebook = "^7.0.0"
