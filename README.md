@@ -26,3 +26,4 @@ streamlit run main.py
 
 # その他
 geojsonは国土交通省 国土地理院の [地球地図日本](https://www.gsi.go.jp/kankyochiri/gm_jpn.html) で公開しているデータを加工して使用しています。
+感染者数のデータは[オープンデータ｜厚生労働省](https://www.mhlw.go.jp/stf/covid-19/open-data.html)から持ってきています。
