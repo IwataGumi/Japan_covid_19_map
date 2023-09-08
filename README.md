@@ -3,6 +3,8 @@
 ![japancovid19map-fptjq8vdssb5kmxsmk3oka streamlit app_](https://github.com/IwataGumi/Japan_covid_19_map/assets/70084358/319fced9-e7e3-4f34-a4e3-fb85397437a8)
 指定した期間の総感染者数の分布を表示するデータアプリケーションです。
 
+[](https://zenn.dev/hekuchandao/articles/e6b57ff3730fb4)
+
 # Install
 ## Poetry
 1. Run poetry install
